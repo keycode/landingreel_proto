@@ -1,0 +1,2429 @@
+@font-face {
+    font-family: 'LEGO Typewell';
+    src: url('../fonts/LEGOTypewell-Black.eot');
+    src: url('../fonts/LEGOTypewell-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LEGOTypewell-Black.woff2') format('woff2'),
+        url('../fonts/LEGOTypewell-Black.woff') format('woff'),
+        url('../fonts/LEGOTypewell-Black.svg#LEGOTypewell-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'LEGO Typewell';
+    src: url('../fonts/LEGOTypewell-Italic.eot');
+    src: url('../fonts/LEGOTypewell-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LEGOTypewell-Italic.woff2') format('woff2'),
+        url('../fonts/LEGOTypewell-Italic.woff') format('woff'),
+        url('../fonts/LEGOTypewell-Italic.svg#LEGOTypewell-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'LEGO Typewell';
+    src: url('../fonts/LEGOTypewell-Bold.eot');
+    src: url('../fonts/LEGOTypewell-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LEGOTypewell-Bold.woff2') format('woff2'),
+        url('../fonts/LEGOTypewell-Bold.woff') format('woff'),
+        url('../fonts/LEGOTypewell-Bold.svg#LEGOTypewell-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'LEGO Typewell';
+    src: url('../fonts/LEGOTypewell-Medium.eot');
+    src: url('../fonts/LEGOTypewell-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LEGOTypewell-Medium.woff2') format('woff2'),
+        url('../fonts/LEGOTypewell-Medium.woff') format('woff'),
+        url('../fonts/LEGOTypewell-Medium.svg#LEGOTypewell-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'LEGO Typewell';
+    src: url('../fonts/LEGOTypewell-Regular.eot');
+    src: url('../fonts/LEGOTypewell-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LEGOTypewell-Regular.woff2') format('woff2'),
+        url('../fonts/LEGOTypewell-Regular.woff') format('woff'),
+        url('../fonts/LEGOTypewell-Regular.svg#LEGOTypewell-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+
+body, html {
+    font-family: "LEGO Typewell", serif;
+
+    color: #262626;
+    background-color: #FFFF00;
+
+
+}
+
+
+
+h1, h2 {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.onlydesktop {
+    display: none !important;
+}
+
+.onlymobile {
+    display: inline !important;
+}
+
+.onlymobiletxt {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+/*
+
+      font-family: 'Dancing Script', cursive;
+      font-family: "LEGO Typewell", serif;;
+      font-family: "LEGO Typewell", serif;
+
+      */
+
+
+/**
+      GLOBAL
+      */
+button:active, button:focus,
+div:active, div:focus,
+a:active, a:focus {
+    outline: 0;
+}
+
+body, html {
+    font-family: "LEGO Typewell", serif;
+    ;
+    color: #262626;
+
+    margin: 0px auto 0px auto;
+    overflow-x: hidden !important;
+
+
+}
+
+section {
+    margin: 0px 0px;
+}
+
+.nomarginsmobile {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+#frame1_animacioninicial {
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+    text-align: left;
+    vertical-align: top;
+    width: fit-content;
+    left: 0px;
+    top: 1vw;
+
+    /*background-image: url(/resources/lego-play-the-spot/images/logoinicialabierto.png);
+    background-size: cover;
+    background-color: transparent;
+    background-position: top left;
+    background-repeat: no-repeat;*/
+}
+
+.seccion_1_logopieza {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    z-index: 5;
+
+
+
+    transform-origin: center center;
+
+}
+
+.seccion_1_logopieza img {
+    width: 9vw;
+}
+
+
+#seccion_1_logopieza1 img {
+    width: 9vw;
+}
+
+#seccion_1_logopieza2 img {
+    width: 9vw;
+}
+
+#seccion_1_logopieza3 img {
+    width: 14vw;
+}
+
+#seccion_1_logopieza4 img {
+    width: 9vw;
+}
+
+#seccion_1_logopieza5 img {
+    width: 9vw;
+}
+
+#seccion_1_logopieza6 img {
+    width: 9vw;
+}
+
+.fondoazul {
+
+    background-color: #011C58;
+    color: #ffffff;
+
+}
+
+.fondoazulclaro {
+
+    background-color: #60BBE3;
+    color: #011C58;
+    padding-bottom: 17vw;
+}
+
+
+.queflotebig {
+    animation: floating 10s ease-in-out infinite;
+}
+
+
+.queflote1 {
+    animation: floating 6s ease-in-out infinite;
+}
+
+.queflote2 {
+    animation: floating 5s ease-in-out infinite;
+}
+
+.queflote3 {
+    animation: floating 4s ease-in-out infinite;
+}
+
+.queflote4 {
+    animation: floating 4.5s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0% {
+
+        transform: translatey(0px);
+    }
+
+    50% {
+
+        transform: translatey(-8px);
+    }
+
+    100% {
+
+        transform: translatey(0px);
+    }
+}
+
+#slider1mobile {
+    position: relative;
+
+    height: 70dvh;
+
+
+    background-image: url(../images/fondoslider1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+
+.seccion_2_logopieza {
+    display: inline-block;
+    width: 5vw;
+    z-index: 9;
+    text-align: left;
+    vertical-align: top;
+    background-color: transparent;
+}
+
+.seccion_2_logopieza img {
+    width: 13vw;
+
+}
+
+#seccion_2_logopieza1 {
+    position: absolute;
+    width: 8vw;
+    left: 8vw;
+    top: 123vw;
+    z-index: 999;
+    display: block;
+
+}
+
+
+#seccion_2_logopieza2 {
+    position: absolute;
+    width: 7vw;
+    left: 47vw;
+    top: 164vw;
+
+    z-index: 999;
+}
+
+#seccion_2_logopieza2 img {
+    width: 15vw;
+}
+
+#seccion_2_logopieza3 {
+    position: absolute;
+    width: 4vw;
+    left: 6vw;
+    top: 204vw;
+    z-index: 999;
+    display: none;
+
+}
+
+#seccion_2_logopieza4 {
+    position: absolute;
+    width: 6vw;
+    left: 3vw;
+    top: 195vw;
+    z-index: 999;
+
+
+}
+
+#seccion_2_logopieza5 {
+    position: absolute;
+    width: 6vw;
+    left: 76vw;
+    top: 183vw;
+    z-index: 999;
+
+
+}
+
+
+#seccion_2_logopieza6 {
+    position: absolute;
+    width: 4vw;
+    left: 82vw;
+    top: 65vw;
+    z-index: 999;
+
+}
+
+#seccion_2_logopieza7 {
+    position: absolute;
+    width: 3vw;
+    left: 6vw;
+    top: 204vw;
+
+    z-index: 999;
+    display: none;
+}
+
+#seccion_2_logopieza8 {
+    position: absolute;
+    width: 4.5vw;
+    left: 6vw;
+    top: 8vw;
+    display: none;
+
+    z-index: 999;
+
+}
+
+#seccion_2_logopieza9 {
+    position: absolute;
+
+    width: 7vw;
+    left: 50vw;
+    top: 198vw;
+    display: none;
+
+    z-index: 999;
+
+}
+
+
+
+#seccion_2_logopieza10 {
+    position: absolute;
+
+    width: 7vw;
+    left: 6vw;
+    top: 38vw;
+    display: none;
+    z-index: 999;
+}
+
+
+.fondocrema {
+
+    background-color: #FF7673E5;
+    color: #000000;
+    min-height: 292dvw;
+    /*
+    background-image: url(../images/fondocream.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;*/
+
+}
+
+
+
+
+
+.seccion3 {}
+
+.cabecera {
+    text-align: center;
+    margin-top: 125px;
+    ;
+    min-height: 80dvh;
+
+    width: 100%;
+
+    background-color: #FFFF00;
+
+
+
+}
+
+#mob_logoinicialabierto {
+    margin-top: 66px;
+}
+
+
+.content1_txt1 {
+    color: #000;
+    font-family: "LEGO Typewell";
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 6.5vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* 137.5% */
+}
+
+.content1_txt2 {
+    color: #000;
+    text-align: center;
+    font-family: "LEGO Typewell";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 257px;
+    margin: 0 auto;
+    /* 100% */
+}
+
+
+
+.content1_flores {
+    margin-top: 50px;
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: absolute;
+    bottom: -10px;
+}
+
+
+
+.content2_subtitulo1 {
+    color: #FF0;
+    font-family: "LEGO Typewell";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    display: block;
+
+    /* 100% */
+}
+
+.content2_txt1 {
+    display: block;
+    color: #FFF;
+    font-family: "LEGO Typewell";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    padding-right: 10%;
+    /* 123.077% */
+}
+
+
+.content2_subtitulo2 {
+    color: #FFF;
+    font-family: "LEGO Typewell";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    /* 123.077% */
+}
+
+
+.content2_txt2 {
+    color: #FFF;
+    font-family: "LEGO Typewell";
+    font-size: 4.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6.5vw;
+
+    /* 169.697% */
+}
+
+
+.content2_subtitulo3 {
+    float: right;
+    color: #FFF;
+    text-align: right;
+    font-family: "LEGO Typewell";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.5px;
+    width: 252px;
+    position: relative;
+    z-index: 9999;
+
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 300px;
+    /* 111.667% */
+}
+
+
+.content2_ilustracion1 {
+
+    margin-top: 70px;
+    position: relative;
+}
+
+.content2_ilustracion1_barco {
+
+
+    position: absolute;
+    top: 142px;
+    z-index: 99;
+}
+
+.content2_ilustracion1_hehagon {
+
+
+    position: absolute;
+    top: 0px;
+}
+
+.seccion3_titulo1 {
+    color: #000;
+    font-family: "LEGO Typewell";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    display: block;
+    /* 123.077% */
+}
+
+.seccion3_txt1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    color: #000;
+    font-family: "LEGO Typewell";
+    font-size: 4.5vw;
+    font-style: normal;
+    line-height: 6.5vw;
+    font-weight: 400;
+
+    /* 169.697% */
+}
+
+
+#contenedoria {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 90dvh;
+
+    background-color: transparent;
+    z-index: 999999;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.seccion3_cta {
+    display: block;
+    margin: 20px auto;
+    background: #011C58;
+    width: 220px;
+    height: 41px;
+    flex-shrink: 0;
+    text-align: center;
+    color: #FFF;
+    font-family: "LEGO Typewell";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 14px;
+    padding: 12px;
+
+    /* 100% */
+    cursor: pointer;
+}
+
+
+
+
+
+.seccion4_logo_world {
+
+    position: absolute;
+    left: 5vw;
+    top: -2vw;
+    width: 45vw;
+    display: block;
+}
+
+
+
+.seccion4_hexaverde {
+
+    position: absolute;
+    left: -61vw;
+    top: -42vw;
+
+    display: block;
+}
+
+
+.sec4_foto1 {
+
+    position: absolute;
+    left: 5vw;
+    top: 82vw;
+
+    display: block;
+}
+
+.sec4_foto1 img {
+    width: 90vw;
+}
+
+.sec4_foto2 {
+
+    position: absolute;
+    left: 50vw;
+    top: 120vw;
+
+    display: block;
+}
+
+.sec4_foto2 img {
+    width: 90vw;
+}
+
+.seccion4_texto {
+
+    display: block;
+    font-family: "LEGO Typewell";
+    font-size: 4vw;
+    line-height: 6vw;
+    font-style: normal;
+
+    line-height: 28px;
+    display: block;
+    width: 89vw;
+    margin-left: 3vw;
+    margin-top: 6vw;
+    width: 80vw;
+}
+
+.seccion4_texto strong {
+    font-weight: 900;
+}
+
+.sec4_pieza1 {
+
+    position: absolute;
+    left: 67vw;
+    top: 6vw;
+
+    display: block;
+    z-index: 999;
+}
+
+.sec4_pieza2 {
+
+    position: absolute;
+    left: 79vw;
+    top: 32vw;
+    z-index: 999;
+    display: block;
+}
+
+.sec4_pieza3 {
+
+    position: absolute;
+    left: 6vw;
+    top: 103vw;
+    z-index: 999;
+    display: block;
+}
+
+.sec4_pieza4 {
+
+    position: absolute;
+    left: 12vw;
+    top: 137vw;
+    z-index: 999;
+    display: block;
+}
+
+
+.sec4_nubes {
+
+    position: absolute;
+    left: 37vw;
+    top: 86vw;
+    z-index: 999;
+    display: block;
+}
+
+
+.sec4_nubes1 {
+
+    position: absolute;
+    left: 69vw;
+    top: 71vw;
+    z-index: 999;
+    display: block;
+}
+
+
+.sec4_nubes2 {
+
+    position: absolute;
+    left: 37vw;
+    top: 78vw;
+    z-index: 999;
+    display: block;
+}
+
+.sec4_arboles {
+
+    position: absolute;
+    left: -131px;
+    top: 202vw;
+    z-index: 999;
+    display: block;
+}
+
+.sec4_learnmore {
+
+    position: absolute;
+    left: 0px;
+    top: 232vw;
+    z-index: 999;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.sec4_learnmoretxt {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: "LEGO Typewell";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    /* 125% */
+
+}
+
+
+
+a.sec4_cta {
+    text-decoration: none;
+    display: block;
+    width: 303px;
+    height: 58px;
+    flex-shrink: 0;
+    background: #011C58;
+    color: #FFF;
+    text-align: center;
+    font-family: "LEGO Typewell";
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 5vw;
+    padding: 10px;
+    margin: 31px auto;
+
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #FFF !important;
+
+}
+
+
+
+#seccion_4_textanim1 .seccion_4_textanim1_letput_off {
+    opacity: 0;
+    position: absolute;
+    width: 85vw;
+    z-index: 999;
+    left: 5vw;
+
+
+}
+
+
+#seccion_4_textanim1 .seccion_4_textanim1_letput_on {
+    opacity: 1;
+    position: absolute;
+    z-index: 9999;
+    width: 85vw;
+    z-index: 999;
+    left: 5vw;
+
+}
+
+#seccion_4_textanim1 {
+    margin-top: -280px;
+}
+
+/*
+  /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  */
+a.icorrss {
+    background-color: transparent;
+    border-radius: 50px;
+    color: #ffffff;
+    width: 40px;
+    height: 26px;
+    padding: 0px 5px;
+    display: inline-block;
+
+    cursor: pointer;
+}
+
+a.icorrss2 {
+
+    color: #FF843A;
+    width: 24px;
+    height: 7px;
+    padding: 0px 0px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+a.icorrss img, a.icorrss2 img {
+    width: 32px;
+
+}
+
+#menumobilelink {
+    display: none;
+}
+
+#menumobile {
+    display: none;
+}
+
+#menudesktop {
+    display: none;
+}
+
+
+.leyendageorgia {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-size: 12px;
+    ;
+}
+
+.subtitulargeneralblanco {
+    font-family: "LEGO Typewell";
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    line-height: 52px;
+}
+
+#logoglith {
+    display: block;
+    width: 180px;
+    height: auto;
+    margin: 36px auto;
+    text-align: center;
+}
+
+
+
+
+.fecha {
+    font-family: "LEGO Typewell";
+    border-bottom: 1px solid #ffffff;
+    display: block;
+    width: 90%;
+
+}
+
+
+.fondonegro {
+    background-color: #000000;
+}
+
+
+.fondogris {
+    background-color: #525252;
+    color: #ffffff;
+
+}
+
+
+
+
+.footersun {
+    padding-top: 135px;
+    background-image: url(../images/footer_triangulo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+
+    display: block;
+    color: #fff;
+
+}
+
+.subtitulargeneral {
+    font-family: "LEGO Typewell", serif;
+    font-size: 26px;
+    color: #000000;
+    /* font-weight: 600; */
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    line-height: 32px;
+    margin: 19px 99px 25px 0px;
+}
+
+
+.subtitulargeneral2 {
+    font-family: "LEGO Typewell", serif;
+    font-size: 26px;
+    color: #000000;
+    /* font-weight: 600; */
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    line-height: 32px;
+    margin: 19px 20px 25px 0px;
+
+}
+
+.cajacomillas {
+    padding-top: 40px;
+    padding-left: 5%;
+}
+
+.titularcomillas {
+    color: #1F2662;
+    font-family: "LEGO Typewell";
+    font-size: 38px;
+
+    font-weight: 500;
+    text-align: left;
+    line-height: 42px;
+
+}
+
+.textopie {
+    font-size: 14px;
+}
+
+.imgcommila {
+    max-width: 80px;
+    ;
+
+}
+
+.slick-next {
+
+    right: -3%;
+    z-index: 999;
+}
+
+.slick-prev {
+    left: -3%;
+    z-index: 999;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -120px !important;
+
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 28px !important;
+    height: 47px !important;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: 0 0;
+}
+
+.subtitulartipos {
+    font-family: "LEGO Typewell", serif;
+    font-size: 22px;
+    color: #947555;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 15px;
+
+
+}
+
+.textosvideo {
+
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    top: 264px;
+    z-index: 99999999;
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.gfw-share-wrpr {
+    width: 100%;
+    float: none;
+}
+
+.seccionvideo {
+    margin: 0px;
+}
+
+.titularvideo {
+    font-family: "LEGO Typewell", serif;
+    font-size: 31px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 44px;
+    text-align: center;
+    line-height: 43px;
+
+}
+
+.parrafovideo {
+    font-size: 17px;
+    line-height: 23px;
+    font-family: "LEGO Typewell", serif;
+    ;
+    font-style: normal;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.capatextosvarios {
+    margin-top: 100px;
+}
+
+.listatipos {
+    padding-left: 0px;
+}
+
+.numerolista {
+    float: left;
+    margin-right: 20px;
+
+}
+
+.parrafolista {
+    font-size: 17px;
+    font-family: "LEGO Typewell", serif;
+    ;
+    font-style: normal;
+    color: #000000;
+    text-align: left;
+    padding-left: 10%;
+    line-height: 27px;
+}
+
+.parrafo {
+    font-size: 17px;
+    font-family: "LEGO Typewell", serif;
+    ;
+    font-style: normal;
+    color: #000000;
+    text-align: left;
+    margin: auto;
+}
+
+.imgharina {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.consumirgluten {}
+
+.sliderreceta {}
+
+.recetadatos {
+    background-color: #F4EFE9;
+    height: 600px;
+    padding: 30px 50px;
+}
+
+.recetatitular {
+    font-family: "LEGO Typewell", serif;
+    font-size: 30px;
+    color: #3C2B30;
+    font-weight: 700;
+    line-height: 33px;
+    height: 120px;
+}
+
+.recetavideo {
+    background-color: #000000;
+    height: 280px;
+}
+
+.recetaicono {
+    border-bottom: 1px #B7B7B7 solid;
+    height: 50px;
+}
+
+.recetatexto {
+    font-size: 19px;
+    line-height: 25px;
+    font-family: "LEGO Typewell", serif;
+    ;
+    font-style: normal;
+    color: #000000;
+    text-align: left;
+    min-height: 300px;
+    padding-top: 20px;
+}
+
+
+.minititular {
+    display: none;
+}
+
+.cabecera .titular {
+    display: none;
+}
+
+.minititularmobile {
+    font-size: 14px;
+    display: block;
+    color: #000000;
+    text-align: left;
+    padding-bottom: 10px;
+
+}
+
+.titularmobile {
+    display: block;
+    font-family: "LEGO Typewell", serif;
+    font-size: 25px;
+    color: #000000;
+    text-align: left;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 10px 3%;
+
+}
+
+.subtitularmobile {
+    display: block;
+    font-family: "LEGO Typewell", serif;
+    font-size: 5vw;
+    color: #000000;
+
+    text-align: left;
+
+
+}
+
+
+.micro1_titulo1 {
+
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10vw;
+    line-height: 12vw;
+    color: #1D1D1D;
+    margin-top: 2vw;
+
+
+}
+
+
+.micro1_titulo2 {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6vw;
+    line-height: 8vw;
+    color: #1D1D1D;
+    font-weight: 3400;
+    margin-top: 1vw;
+}
+
+
+#flores1 {
+
+    position: absolute;
+    right: -1vw;
+    top: -37vw;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 3.5vw; */
+    /* line-height: 3.5vw; */
+    color: #1D1D1D;
+    z-index: 9999;
+
+
+}
+
+#flores2 {
+
+    position: absolute;
+    left: -3vw;
+    top: -15vw;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 3.5vw; */
+    /* line-height: 3.5vw; */
+    color: #1D1D1D;
+    z-index: 9999;
+
+
+
+}
+
+.cajanegruita {
+
+    min-height: 116px;
+}
+
+.micro1_subtitulo1 {
+
+
+
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 33px;
+    /* or 194% */
+
+    color: #1D1D1D;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    margin: 1vw;
+
+}
+
+
+.parrafo {
+
+
+    font-family: 'Urbanist';
+    font-style: normal;
+
+    font-size: 17px;
+    line-height: 33px;
+    /* or 194% */
+    margin: 1vw;
+
+    color: #1D1D1D;
+
+
+}
+
+
+.parrafoblanco {
+
+
+    font-family: 'Urbanist';
+    font-style: normal;
+
+    font-size: 17px;
+    line-height: 33px;
+    /* or 194% */
+    margin: 1vw;
+
+    color: #ffffff;
+    width: 88vw;
+
+
+}
+
+.verde {
+    color: #40B02C;
+}
+
+.parrafogramnde {
+
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+
+    width: 88vw;
+}
+
+.titularparrafo {
+
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    /* or 132% */
+
+    color: #1D1D1D;
+
+
+
+}
+
+.ctablano {
+
+    height: 40px;
+    width: 200px;
+    padding: 0.8vw;
+    text-align: center;
+
+    color: #000000;
+    background-color: white;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+}
+
+
+
+.roboto63 {
+    font-size: 38px;
+    font-family: "LEGO Typewell", sans-serif;
+    font-style: normal;
+    color: #000000;
+    text-align: left;
+    line-height: 40px;
+}
+
+.parrafocitadel {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.contenedorfotos {
+    display: none !important;
+
+}
+
+
+.contenedorfotosmobile {
+    display: block !important;
+
+}
+
+.bordegriscajabig {
+    padding: 2vw;
+    border: 1px solid #D8D8D8;
+    /*width:75vw;*/
+    margin: 8vw 4vw 4vw 4vw;
+
+}
+
+.cajaresistencia {
+    /*
+            background-image: url(../images/loseta4.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;*/
+    height: 20vw;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    left-content: flex-end;
+    top: 0px;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+}
+
+.cuarta {
+    margin-top: 0px;
+    background-size: 0%;
+}
+
+.paddiingtextos {
+    padding: 0px;
+}
+
+.quinta {
+    margin-top: 50px;
+    background-size: 25%;
+}
+
+.textocuarta {
+    font-family: "LEGO Typewell", serif;
+    ;
+    font-size: 7vh;
+    line-height: 5vh;
+
+    text-align: right;
+    color: #ffffff;
+
+    float: right;
+    opacity: 0;
+    z-index: 9999999;
+    margin-right: -200px;
+
+}
+
+.cajaresistenciaimagen1 {
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../images/fade1.png);
+    background-size: cover;
+    transform: scale(1.5);
+    opacity: 0;
+    display: block;
+    z-index: 9991;
+}
+
+.cajaresistenciaimagen2 {
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 20vw;
+    background-image: url(../images/fade2.png);
+    background-size: cover;
+    transform: scale(1.5);
+    opacity: 0;
+    display: block;
+    z-index: 9995;
+}
+
+
+
+
+
+.sexta .losetametida {
+    margin-bottom: -325px;
+    background-image: url(../images/liem-black-2.png);
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 456px;
+
+}
+
+
+.fondovideo iframe {
+    width: 100% !important;
+    max-width: 100%;
+    height: 100% !important;
+    min-height: 212px;
+}
+
+
+.containervideo {
+    background-color: #000000;
+}
+
+.paddiingtextos2 {
+    padding: 0px;
+}
+
+.fondovideo {
+    position: relative;
+    text-align: center;
+    background-image: url(../images/fondovideo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: flex-start;
+    left-content: center;
+    align-content: flex-start;
+    height: 80auto9px;
+    background-color: #000000;
+}
+
+.fondovideo video {
+    width: 100vw !important;
+    height: auto !important;
+}
+
+
+
+.septima {
+    margin-top: 150px;
+
+}
+
+.septima .titular {
+    background-image: url(../images/loseta4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "LEGO Typewell", serif;
+    ;
+    font-size: 5vh;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 3.6vh;
+    text-align: center;
+    height: 20vh;
+    margin: 2vw 6vw;
+    padding-top: 6vh;
+
+}
+
+
+
+
+
+
+
+
+
+
+.queflote1 {
+    animation: floating 6s ease-in-out infinite;
+}
+
+.queflote2 {
+    animation: floating 5s ease-in-out infinite;
+}
+
+.queflote3 {
+    animation: floating 4s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0% {
+
+        transform: translatey(0px);
+    }
+
+    50% {
+
+        transform: translatey(-20px);
+    }
+
+    100% {
+
+        transform: translatey(0px);
+    }
+}
+
+
+
+
+
+.footer {
+
+
+    font-size: 14px;
+    min-height: 50px;
+
+    text-align: center;
+
+
+}
+
+.footer .uno {
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #385C9A;
+    color: #ffffff;
+    min-height: 50px;
+    padding: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: "LEGO Typewell";
+    font-size: 19px;
+    font-style: normal;
+
+    line-height: 33px;
+    /* 173.684% */
+}
+
+.footer .uno strong {
+    font-weight: 700 !important;
+}
+
+.footer .dos {
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 300;
+    background-color: #494848;
+    font-family: "LEGO Typewell";
+    color: #ffffff;
+    min-height: 50px;
+    padding: 20px;
+}
+
+.footer a {
+
+    color: #ffffff;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "LEGO Typewell";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1280px) and (max-width: 1440px) {}
+
+@media screen and (min-width: 1024px) and (max-width: 1278px) {}
+
+
+
+#footerrrsspie .iconos {
+    float: right;
+
+}
+
+
+#footerrrsspie .iconos img {
+    width: 100%;
+    max-width: 55px;
+
+}
+
+#footerrrsspie .textos {
+    float: left;
+
+}
+
+#footerrrsspie .textos .titu {
+    font-size: 26px;
+    line-height: 24px;
+
+    font-weight: 700;
+
+}
+
+
+#footerrrsspie .textos .subtitu {
+    font-size: 20px;
+
+}
+
+
+
+
+.no-padding-mobile {
+    padding: 0px !important;
+}
+
+.navegacionfinal {
+    margin-top: 50px;
+    margin-bottom: 150px;
+
+}
+
+.btnanterior {
+    border: 1px solid #EEEEEE;
+    height: 23vw;
+    width: 100%;
+    font-family: "LEGO Typewell", serif;
+    ;
+    font-size: 3vh;
+    color: #979797;
+    background-color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    left-content: center;
+    background-image: url(../images/blanco.png);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    cursor: pointer;
+
+    float: left;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.btnanterior:hover {
+    background-image: url(../images/fondovideo1.jpg);
+
+    color: white;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+.btnsiguiente {
+    border: 1px solid #EEEEEE;
+    height: 23vw;
+    width: 100%;
+    font-family: "LEGO Typewell", serif;
+    ;
+    font-size: 3vh;
+    color: #979797;
+    background-color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    left-content: center;
+    background-image: url(../images/blanco.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    cursor: pointer;
+
+    float: left;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+    float: right;
+
+}
+
+.btnsiguiente:hover {
+    background-image: url(../images/fondovideo2.png);
+    text-decoration: none;
+    color: white;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+
+strong {
+    font-weight: 900;
+}
+
+
+
+/* Cookie Dialog */
+#gdpr-cookie-message {
+
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    max-width: 375px;
+    background-color: var(--purple);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+    margin-left: 30px;
+    font-family: system-ui;
+}
+
+#gdpr-cookie-message h4 {
+    color: var(--red);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#gdpr-cookie-message h5 {
+    color: var(--red);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#gdpr-cookie-message p, #gdpr-cookie-message ul {
+    color: white;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+#gdpr-cookie-message p:last-child {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+#gdpr-cookie-message li {
+    width: 49%;
+    display: inline-block;
+}
+
+#gdpr-cookie-message a {
+    color: var(--red);
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 2px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.75);
+    transition: all 0.3s ease-in;
+}
+
+#gdpr-cookie-message a:hover {
+    color: white;
+    border-bottom-color: var(--red);
+    transition: all 0.3s ease-in;
+}
+
+#gdpr-cookie-message button,
+button#ihavecookiesBtn {
+    border: none;
+    background: var(--red);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 3px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+#gdpr-cookie-message button:hover {
+    background: white;
+    color: var(--red);
+    transition: all 0.3s ease-in;
+}
+
+button#gdpr-cookie-advanced {
+    background: white;
+    color: var(--red);
+}
+
+#gdpr-cookie-message button:disabled {
+    opacity: 0.3;
+}
+
+#gdpr-cookie-message input[type="checkbox"] {
+    float: none;
+    margin-top: 0;
+    margin-right: 5px;
+}
+
+
+/* SHARE */
+
+
+
+.gfw-share-btns {
+    white-space: nowrap;
+    cursor: pointer;
+    text-align: left;
+}
+
+.titulo_rrss {
+    font-size: 16px;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+.gfw-share-wrpr>span {
+    font-size: 14px;
+}
+
+.gfw-share-wrpr .gfw-share-btns {
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.gfw-share-wrpr .gfw-share-btns .gfw-expanded-options {
+    width: 0;
+    height: 60px;
+    overflow: hidden;
+    vertical-align: top;
+    opacity: 0;
+    transition: all 300ms linear;
+}
+
+.gfw-share-wrpr .gfw-share-btns .gfw-expanded-options.active {
+    display: inline-block;
+    width: 180px;
+    opacity: 1;
+    margin-right: 5px;
+}
+
+.gfw-share-wrpr .gfw-share-btns div:first-of-type {
+    display: inline-block;
+}
+
+.gfw-share-wrpr .gfw-share-btns>div:last-of-type,
+.gfw-share-wrpr .gfw-share-btns a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    padding: 0;
+    line-height: 40px;
+    transform: scale(1);
+    transition: all 300ms linear;
+}
+
+.gfw-share-wrpr .gfw-share-btns>div:last-of-type:focus,
+.gfw-share-wrpr .gfw-share-btns>div:last-of-type:hover,
+.gfw-share-wrpr .gfw-share-btns a:focus,
+.gfw-share-wrpr .gfw-share-btns a:hover {
+    transform: scale(0.95);
+}
+
+.gfw-share-wrpr .gfw-share-btns>div:last-of-type img,
+.gfw-share-wrpr .gfw-share-btns a img {
+    display: inline-block;
+    width: 40px;
+    height: auto;
+}
+
+.gfw-share-wrpr .gfw-share-btns .gfw-more-share-options {
+    display: block;
+}
+
+.gfw-mobile-share-btn {
+    display: none;
+}
+
+.gfw-share-icon g {
+    fill: #fff;
+}
+
+@media only screen and (max-width: 640px) {
+    .gfw-share-title {
+        display: none;
+    }
+
+    .gfw-share-wrpr>span,
+    .gfw-share-wrpr>strong {
+        display: none;
+    }
+
+    .gfw-share-wrpr .gfw-share-btns {
+        display: none;
+    }
+
+    .gfw-share-wrpr .gfw-mobile-share-btn {
+        font-family: "LEGO Typewell";
+        display: block;
+        position: relative;
+        z-index: 8;
+        white-space: nowrap;
+        padding: 10px 25px;
+        border: solid 1px #fff;
+        font-weight: 300;
+        width: 143px;
+        margin: 20px 0px;
+        color: #fff;
+        pointer-events: all;
+        cursor: pointer;
+        background-color: transparent;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .gfw-share-wrpr .gfw-mobile-share-btn img,
+    .gfw-share-wrpr .gfw-mobile-share-btn svg {
+        margin-left: 10px;
+    }
+
+    .gfw-article-top .gfw-share-wrpr .gfw-mobile-share-btn {
+        padding: 10px 30px;
+        margin: 0 30px 30px;
+        transform: translate(0, 0);
+    }
+
+    .gfw-menu-share-wrpr .gfw-share-wrpr>span,
+    .gfw-menu-share-wrpr .gfw-share-wrpr>strong {
+        display: none;
+    }
+
+    .gfw-menu-share-wrpr .gfw-share-wrpr .gfw-share-btns {
+        display: none;
+    }
+
+    .gfw-menu-share-wrpr .gfw-share-wrpr .gfw-mobile-share-btn {
+        display: inline-block;
+        white-space: nowrap;
+        padding: 10px 30px;
+        margin: -15px 30px 30px;
+        border: solid 1px #fff;
+    }
+
+    .gfw-menu-share-wrpr .gfw-share-icon g {
+        fill: #fff;
+    }
+
+
+
+    #header {
+        display: block;
+        position: fixed;
+
+        margin: 0px auto 0px auto;
+        width: 100%;
+        height: 125px;
+        top: 0px;
+        padding: 25px;
+        background-color: white;
+        z-index: 999999;
+
+    }
+
+    #toplogo {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+
+
+    }
+
+    #botonia {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+
+
+    }
+
+    .headerblank {
+        margin-top: 100px;
+    }
+
+    /** MENU */
+
+
+    #menudesktop {
+        display: none;
+        position: fixed;
+        top: 135px;
+        right: 11px;
+        /* width: 50px; */
+        height: 46px;
+        cursor: pointer;
+        z-index: 9999999999;
+    }
+
+    #menudesktop img {
+        width: 84%;
+
+    }
+
+    #logodesktop {
+        margin: 0 auto;
+        position: relative;
+        left: 0%;
+        width: 200px;
+
+        margin-top: 2%;
+        text-align: center;
+    }
+
+    .panellateral {
+        display: none;
+        position: fixed;
+
+        right: -95.625em;
+        /*left or right and the width of your navigation panel*/
+        width: 250.625em;
+        /*should match the above value*/
+        background-color: #FFFF00;
+        color: #000000;
+        z-index: 9999999999;
+    }
+
+    .panellateral ul {
+
+        list-style: none;
+        margin-top: 15dvh;
+        margin-left: 1vw;
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+
+    .panellateral li {
+        padding-top: 4vw;
+
+
+        display: block;
+        text-align: center;
+
+    }
+
+    .panellateral li a {
+
+
+        font-weight: normal;
+        font-family: "LEGO Typewell", serif;
+        font-display: swap;
+        color: #000;
+        line-height: 7vw;
+        font-size: 5.5vw;
+        list-style-image: none;
+        font-weight: 900;
+        margin-top: 10vw;
+
+    }
+
+    .panellateral li a:hover {
+        text-decoration: none;
+    }
+
+    .panellateral .linea {
+        max-width: 500px;
+        border: 1px solid #484848;
+    }
+
+    #btncerrar {
+        margin: 20px;
+        width: 10vw;
+        float: right;
+    }
+
+
+    .menuimg {
+        width: 100%;
+
+        display: block;
+
+    }
+
+    .menuimglogo {
+
+        display: block;
+        padding-left: 77%;
+        margin-top: 1%;
+
+    }
+
+
+
+    .video-js {
+
+        background-color: #ffffff !important;
+
+
+    }
+
+    .homecasa {
+        position: absolute;
+        right: 0vw;
+        top: 0vw;
+        cursor: pointer;
+        z-index: 999999999;
+    }
+
+    #contscrollslide {
+        display: none;
+    }
+
+    .textocentradoonlydesktop {
+        text-align: left !important;
+    }
+
+}
+
+@media screen and (min-width: 1981px) {}
+
+
+
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+
+
+    body, html {
+
+        overflow-x: hidden !important;
+
+
+    }
+
+
+
+    .textocentradoonlydesktop {
+        text-align: left !important;
+    }
+
+    .imagenfull1 {
+
+        width: 100%;
+        background-image: url(/resources/aires-renovados/mobile/imgs/fondobaterias.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .fondovideo iframe {
+        width: 100% !important;
+        max-width: 900px;
+        height: 100% !important;
+        min-height: 348px;
+    }
+
+    .paddiingtextos2 {
+        padding: 5%;
+    }
+
+    .subtitulargeneral {
+        font-family: "LEGO Typewell";
+        font-size: 32px;
+        color: #000000;
+        font-weight: 500;
+        text-align: left;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        max-width: 910px;
+        margin: 20px auto;
+    }
+
+    .subtitulargeneralindex {
+        font-family: "LEGO Typewell";
+        font-size: 29px;
+        color: #000000;
+        font-weight: 500;
+        text-align: left;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        line-height: 32px;
+    }
+
+
+
+
+}
+
+@media only screen and (min-device-width : 760px) and (max-device-width : 1023px) and (orientation : portrait) {
+    .fondovideo iframe {
+        width: 100% !important;
+        max-width: 900px;
+        height: 100% !important;
+        min-height: 419px;
+    }
+
+    .paddiingtextos2 {
+
+        padding: 0px 45px;
+    }
+
+    .imagenfull1 {
+
+        height: 378px;
+    }
+
+    .imagenfullglinth {
+        height: 813px;
+
+    }
+
+    .parrafolistablancoglitch {
+
+        width: 638px;
+
+    }
+
+    .imgcommila {
+        max-width: 80px;
+
+    }
+
+    .titularcomillas {
+        color: #1F2662;
+        font-family: "LEGO Typewell";
+        font-size: 37px;
+
+        font-weight: 500;
+        text-align: left;
+        line-height: 42px;
+    }
+
+    .cabecera {
+        text-align: center;
+        height: 493px;
+    }
+
+    .cabecera .titular {
+        font-family: "LEGO Typewell", serif;
+        font-size: 34px;
+        color: #ffffff;
+        line-height: 39px;
+        text-align: left;
+        padding-bottom: 2vw;
+        font-weight: 300;
+    }
+
+    .cuarta {
+
+        background-position: top 550px left;
+
+    }
+
+    #contscrollslide {
+        right: 32% !important;
+        bottom: 8vh !important;
+        top: 20px !important;
+        left: 94vw !important;
+        width: 41px;
+        transform: rotate(90deg);
+        position: absolute;
+    }
+
+    .divfoto {
+        padding: 7px;
+        max-width: 215px;
+    }
+
+
+}
